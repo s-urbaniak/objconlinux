@@ -1,0 +1,7 @@
+-I.
+-I/usr/local/include
+-fobjc-runtime=objfw
+-fexceptions
+-fobjc-exceptions
+-fno-constant-cfstrings
+-fblocks
