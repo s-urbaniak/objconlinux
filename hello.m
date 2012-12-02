@@ -4,12 +4,20 @@
 
 @interface Foo : OFObject
 - (OFString*) currentVersion;
+- (OFString*) description;
 @end
 
 @implementation Foo : OFObject
 - (OFString*) currentVersion
 {
     return @"öäüüö Ω v0.2";
+}
+
+- (OFString*) description
+{
+    return [OFString stringWithFormat:@"<%@: %p>: this is me :-)", 
+           [self className],
+           self];
 }
 @end
 
