@@ -1,3 +1,4 @@
+#import <stdio.h>
 #import <ObjFW/OFString.h>
 
 #define OFLog(obj) \
