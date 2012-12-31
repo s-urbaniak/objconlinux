@@ -3,7 +3,7 @@
 
 @interface MainWindow : OFObject
 {
-    GtkWidget *win;
-    GtkWidget *button;
+    @private GtkWidget *win;
+    @private GtkWidget *button;
 }
 @end
