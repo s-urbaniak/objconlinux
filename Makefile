@@ -1,6 +1,6 @@
 CXX=clang
 
-FOBJC_FLAGS=$(shell objfw-config --cflags --objcflags)
+FOBJC_FLAGS=$(shell objfw-config --cppflags --objcflags)
 GTK_CFLAGS=$(shell pkg-config --cflags gtk+-3.0)
 
 FOBJC_LIBS=$(shell objfw-config --ldflags --libs)
